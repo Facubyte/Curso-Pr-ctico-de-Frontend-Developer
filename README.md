@@ -9,5 +9,3 @@ En este curso, se cubren los siguientes temas clave:
 - Utilización de variables de CSS para personalizar colores, fuentes y tamaños en tu aplicación.
 - Maquetación de páginas web con responsive design para adaptar tu aplicación a diferentes dispositivos y tamaños de pantalla.
 - Identificación de vistas y componentes para construir una experiencia de usuario coherente.
-
-![Facubyte](/facubyte.jpg)
