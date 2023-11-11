@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New password</title>
+    <title>email-sent</title>
     <link rel="stylesheet" href="/Curso Práctico de Frontend Developer/assets/css/general-styles.css">
-    <link rel="stylesheet" href="/Curso Práctico de Frontend Developer/assets/css/create-new-password.css">
+    <link rel="stylesheet" href="/Curso Práctico de Frontend Developer/assets/css/email-sent.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
@@ -14,21 +14,11 @@
 <body>
     <main class="main-content">
         <img src="/Curso Práctico de Frontend Developer/assets/logos/logo_yard_sale.svg" alt="logo" class="logo">
-        <h1>Create a new password</h1>
-        <form action="" class="form">
-            <div>
-                <label for="password">Password<label>
-
-                <input type="password" id="password" placeholder="********" autofocus>
-            </div>
-    
-            <div>
-                <label for="re-password"  >Re-enter password</label>
-                <input type="password" id="re-password" placeholder="********" required >
-            </div>
-           
-            <input type="submit" value="Confirm" class="button">
-        </form>
+        <h1>Email has been sent!</h1>
+        <P>Please check your inbox for instructions on how to reset password</P>
+        <img src="./assets/icons/email.svg" alt="email">
+        <button class="button">Login</button>
+        <p>Didn´t receive the email? <a href="/">Resend</a></p>
     </main>
 </body>
 </html>
