@@ -2,7 +2,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --dark: #232830;
-    --gray: #757779;
+    --gray: #545556;
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
@@ -12,4 +12,6 @@
 body{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(172,217,178,1) 0%, rgb(16, 147, 173) 100%); 
 }
