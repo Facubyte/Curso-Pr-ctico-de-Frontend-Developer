@@ -1,0 +1,51 @@
+.main-content{
+    display: grid;
+    place-content: center;
+
+    height: 100vh;
+    place-items: center;
+    row-gap: 30px;
+}
+
+.form{
+    display: grid;
+    place-items: center;
+    width: 200px;
+    row-gap: 20px;
+}
+
+.button{
+    width: 180px;
+    border-radius: 10px;
+    border: solid var(--hospital-green);
+    background-color: var(--hospital-green);
+    font-size: medium;
+    letter-spacing: 1.5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.logo{
+    width: 200px;
+}
+
+input{
+    background-color: var(--input);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    img{
+        display: none;
+    }
+    
+    .main-content{
+        height: 60vh;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-content{
+        height: 60vh;
+    }
+  }
