@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+}
+.nav-container{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    justify-content: space-between;
+    width:100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.button{
+    border-radius: 10px;
+    border: solid var(--hospital-green);
+    background-color: var(--hospital-green);
+    font-size: medium;
+    letter-spacing: 1.5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-right: 10px;
+    height: 2.2em;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo{
+        display: none;
+    }
+    .nav-container{
+        grid-template-columns: 1fr auto;
+    }
+  }
